@@ -1,0 +1,21 @@
+{
+    "name": "b90007xh/susu-client",
+    "authors": [
+        {
+            "name": "Egor Plotnikov",
+            "email": "ex-sirenia@ya.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-curl": "*",
+        "campo/random-user-agent": "*",
+        "spatie/regex": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "engine\\": "engine"
+        }
+    }
+}
